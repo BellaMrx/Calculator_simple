@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-image: url("math.jpg");
+	font-family: Georgia, serif;
+}
+
+.calculator {
+	margin: 20px;
+	position: relative;
+	display: grid;
+	cursor: pointer;
+	border: 15px solid #303730;
+	border-radius: 20px;
+}
+
+.calculator .value {
+	grid-column: span 4;
+	text-align: right;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.calculator span {
+	display: grid;
+	width: 100%;
+	height: 60px;
+	color: #fff;
+	background: #39774f;
+	place-items: center;
+	border: 1px solid #2e603b;
+}
+
+.calculator span:active {
+	background: #00ff7f;
+	color: #111;
+}
+
+.calculator span.clear {
+	grid-column: span 2;
+	width: 100%;
+	background: #ffaa42;
+}
+
+.calculator span.plus {
+	grid-row: span 2;
+	height: auto;
+}
+
+.calculator span.equal {
+	background: #15bfff;
+}
