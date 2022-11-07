@@ -4,4 +4,4 @@
  Save the files in a folder and open the file "index.html" in your browser.
 
 
- ![Preview](CalculatorPreview.JPG)
+ ![Preview](CalculatorPreview.jpg)
