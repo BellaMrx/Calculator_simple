@@ -5,8 +5,10 @@
 
 
 Preview
- ![Preview](Images/PreviewCalculator.PNG)
+
+![Preview](Images/PreviewCalculator.PNG)
 
 
 Mobile View
- ![Preview](Images/PreviewCalculatorMobile.PNG)
+
+![Preview](Images/PreviewCalculatorMobile.PNG)
