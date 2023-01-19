@@ -4,11 +4,11 @@
  Save the files in a folder and open the file "index.html" in your browser.
 
 
-Preview
+ Preview
 
 ![Preview](Images/PreviewCalculator.PNG)
 
 
-Mobile View
+ Mobile View
 
 ![Preview](Images/PreviewCalculatorMobile.PNG)
