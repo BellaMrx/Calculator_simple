@@ -6,7 +6,13 @@ body {
 	display: flex;
 	justify-content: center;
 	font-family: Georgia, serif;
-	background-image: linear-gradient(#68c6cf, #f4b76c);
+	background-color: #68c6cf;
+}
+
+.container {
+	width:30vw;
+	perspective: 1000px;
+	position: relative;
 }
 
 .calculator {
@@ -14,8 +20,15 @@ body {
 	position: relative;
 	display: grid;
 	cursor: pointer;
-	border: 12px solid #303730;
-	border-radius: 4px;
+	border: 12px solid #272c27;
+	border-radius: 6px;
+	box-shadow: 1px 1px #303730, 2px 2px #303730, 3px 3px #303730, 4px 4px #303730, 5px 5px #303730, 6px 6px #303730, 7px 7px #303730, 8px 8px #303730, 9px 9px #303730, 10px 10px #303730, 11px 11px #303730, 12px 12px #303730;
+	margin: 20px;
+	transform: rotateX(5deg);
+}
+
+textarea {
+	resize: none;
 }
 
 .calculator .value {
@@ -23,14 +36,14 @@ body {
 	text-align: right;
 	border: none;
 	outline: none;
-	padding: 20px;
+	padding: 30px;
 	font-size: 2rem;
 }
 
 .calculator span {
 	display: grid;
 	width: 100%;
-	height: 10vh;
+	height: 8vh;
 	color: #000;
 	place-items: center;
 	border-radius: 5px;
@@ -53,8 +66,8 @@ body {
 
 .calculator span.clear:active {
 	color: #fff;
-	background: #ff5454;
-	box-shadow: 0 35px 68px 0 #ff5454, inset 0 -8px 16px 0 #fff;
+	background: #ffb742da;
+	box-shadow: 0 35px 68px 0 #ffb742da, inset 0 -8px 16px 0 #fff;
 }
 
 .calculator span.sign {
@@ -77,30 +90,26 @@ body {
 
 .calculator span.equal:active {
 	color: #fff;
-	background: #2182f9;
-	box-shadow: 0 35px 68px 0 #2182f9, inset 0 -8px 16px 0 darkgray;
+	background: #70d9ff96;
+	box-shadow: 0 35px 68px 0 #70d9ff96, inset 0 -8px 16px 0 darkgray;
 }
+
 
 
 .contact {
-    float: right;
 	position: absolute;
-	left: 6.5%;
-	top: 3%;
-	z-index: 1;
-    display: flex;
-	background-color: #303730;
-	width: 87%;
+	background-color: #272c27;
+	width: 100%;
 }
 
 #link {
-	font-size: 2vw;
+	font-size: 1.5vw;
 	margin: 0 0 0 0.1px; 
 }
 
 /* for Twitter, GitHub icon */
 .fa {
-	font-size: 2vw;
+	font-size: 1.5vw;
 	text-decoration: none;
 	margin: 0 0 0 20px;
 }
@@ -118,6 +127,25 @@ body {
 	color: #fff;
 }
 
-span {
-	color: #fff;
+p {
+	color: aliceblue;
+	display: inline-block;
+}
+
+
+@media only screen and (max-width: 900px) {
+	#link {
+		font-size: 5vw;
+	}
+	
+	/* for Twitter, GitHub icon */
+	.fa {
+		font-size: 5vw;
+		text-decoration: none;
+	}
+
+	.container {
+		width: auto;
+		margin-top: 10vw;
+	}
 }
