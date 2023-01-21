@@ -21,7 +21,7 @@ body {
 	position: relative;
 	display: grid;
 	cursor: pointer;
-	border: 12px solid #303730;
+	border: 12px solid #4b4f4b;
 	border-radius: 6px;
 	box-shadow: 1px 1px #272c27, 2px 2px #272c27, 3px 3px #272c27, 4px 4px #272c27, 5px 5px #272c27, 6px 6px #272c27, 7px 7px #272c27, 8px 8px #272c27, 9px 9px #272c27, 10px 10px #272c27, 11px 11px #272c27, 12px 12px #272c27;
 	margin: 20px;
@@ -98,9 +98,9 @@ textarea {
 
 .contact {
 	position: absolute;
-	background-color: #303730;
+	background-color: #4b4f4b;
 	width: 100%;
-	border: 2px solid #303730;
+	border: 2px solid #4b4f4b;
 }
 
 #link {

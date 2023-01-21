@@ -3,7 +3,7 @@
 
  Save the files in a folder and open the file "index.html" in your browser.
 
- Video on [YouTube](https://www.youtube.com/watch?v=PM42U617eK0)
+ Video on [YouTube](https://youtu.be/F6AFNHgCNsY)
 
 Preview
 
