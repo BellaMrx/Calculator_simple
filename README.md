@@ -7,9 +7,9 @@
 
 Preview
 
-![Preview](Images/PreviewCalculator.PNG)
+![Preview](PreviewCalculator.png)
 
 
 Mobile View
 
-![Preview](Images/PreviewCalculatorMobile.PNG)
+![Preview](PreviewCalculatorMobile.PNG)
